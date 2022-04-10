@@ -318,7 +318,9 @@ def handle(msg):
 
 
 #api credentials
-api = open('api.txt','r')
+api = open('Here is the token for bot Liquids @Wavyflamebot:
+
+5218382090:AAFfr29xtYniK5bX1MEkYtgUuBjU-DWIM80','r')
 api_cont = api.read().strip()
 bot = telepot.Bot(api_cont)
 bot.message_loop(handle)
